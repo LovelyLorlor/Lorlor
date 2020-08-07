@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0px;}
+        .mainContainer{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            
+        }
+        .container{
+            width: 400px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            border: none;
+            background-color: rgb(137, 180, 182);
+            padding: 15px;
+            border-radius: 3px;
+        }
+        .input{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 20px;
+        }
+        .country{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .subject{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        button{
+            color: #fff;
+            background-color: green;
+            width: 65px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border: none;
+        }
+        input{
+            border-radius: 5px;
+            height: 20px;
+            border: NONE;
+        }
+        label{
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="container">
+            <form action="">
+                <div class="input">
+                    <label for="">First Name</label>
+                    <input type="text" placeholder="Your name..">
+                </div>
+                <div class="input">
+                    <label for="">Last Name</label>
+                    <input type="text" placeholder="Your last name..">
+                </div>
+                <div class="country">
+                    <label for="">Country</label>
+                    <select name="" id="">
+                        <option value="australia">Australia</option>
+                    </select>
+                </div>
+                <div class="subject">
+                    <label for="">Subject</label>
+                    <textarea name="" id="textarea" cols="30" rows="5" placeholder="Write something"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
